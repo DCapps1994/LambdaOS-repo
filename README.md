@@ -10,8 +10,6 @@ LambdaOS is a non-commercial fan project. It is not made, endorsed or supported 
 
 1. Trust the signing key:
    ```sh
-   sudo pacman-key --recv-keys 36AA2BC9D25AA07F564BC8166547BC1A4686B300 --keyserver keyserver.ubuntu.com
-   # or, without a keyserver:
    curl -L https://github.com/DCapps1994/LambdaOS-repo/releases/download/x86_64/lambda-keyring-key.gpg | sudo pacman-key --add -
    sudo pacman-key --lsign-key 36AA2BC9D25AA07F564BC8166547BC1A4686B300
    ```
